@@ -73,14 +73,6 @@ const HeroSection = () => {
             animate="visible"
             className="text-center lg:text-left"
           >
-            <motion.div
-              variants={itemVariants}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium mb-6"
-            >
-              <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-              Trusted by 150+ Schools Across India
-            </motion.div>
-
             <motion.h1
               variants={itemVariants}
               className="text-4xl md:text-5xl lg:text-6xl font-heading text-foreground leading-tight mb-6"
