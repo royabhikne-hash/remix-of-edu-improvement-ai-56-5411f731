@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        heading: ["DM Serif Display", "Georgia", "serif"],
-        body: ["Inter", "system-ui", "sans-serif"],
+        heading: ["Nunito", "system-ui", "sans-serif"],
+        body: ["Nunito", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -26,11 +26,21 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          dark: "hsl(var(--primary-dark))",
           light: "hsl(var(--primary-light))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          light: "hsl(var(--secondary-light))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        purple: {
+          DEFAULT: "hsl(var(--purple))",
+          foreground: "hsl(var(--purple-foreground))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -71,10 +81,12 @@ export default {
         "2xl": "calc(var(--radius) + 8px)",
       },
       boxShadow: {
-        soft: "var(--shadow-soft)",
-        card: "var(--shadow-card)",
-        elevated: "var(--shadow-elevated)",
+        sm: "var(--shadow-sm)",
+        md: "var(--shadow-md)",
+        lg: "var(--shadow-lg)",
         glow: "var(--shadow-glow)",
+        card: "var(--shadow-md)",
+        elevated: "var(--shadow-lg)",
       },
       keyframes: {
         "accordion-down": {
