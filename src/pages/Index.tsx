@@ -10,6 +10,7 @@ import TrustSection from "@/components/sections/TrustSection";
 import TeamSection from "@/components/sections/TeamSection";
 import ContactSection from "@/components/sections/ContactSection";
 import CTASection from "@/components/sections/CTASection";
+import FranchiseChatbot from "@/components/FranchiseChatbot";
 
 const Index = () => {
   return (
@@ -58,6 +59,7 @@ const Index = () => {
           <CTASection />
         </main>
         <Footer />
+        <FranchiseChatbot />
       </div>
     </>
   );
